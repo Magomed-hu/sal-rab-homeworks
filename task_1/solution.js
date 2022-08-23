@@ -46,6 +46,7 @@ function addInCartCountChange(value) {
     // увеличьте значение newValue на 1
 
     // Конец решения задания №1.2.
+    
 
     return newValue;
 }
@@ -57,6 +58,7 @@ function addInCartSumChange(sum, delta) {
     let newSum;
     let newSumText = newSum + " ₽";
     newSumText = `${newSum} ₽`;
+    console.log(newSumText)
 
 
 
