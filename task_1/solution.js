@@ -5,11 +5,11 @@ function addInCartMessage(title, price) {
     let message;
     message = productName;
 
-    message = message + " за";
+    message = message + "за";
 
     message = productPrice;
     
-    message = message = " теперь в корзине"
+    message = message = "теперь в корзине";
 
     console.log(message);
 
@@ -36,7 +36,7 @@ function addInCartCountChange(value) {
 
     newValue = oldValue;
 
-    newValue + 1
+    newValue + 1;
 
     // Задание №1.2. Увеличение количества в корзине
     let oldValue = value;
